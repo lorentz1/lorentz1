@@ -1,10 +1,10 @@
-<h2 align="left">Hi 👋! My name is Nathan Lorentz, a Cybersecurity Student & C++/Embedded Systems Developer from Brazil 🇧🇷</h2>
+<h2 align="left">Olá 👋! Meu nome é Nathan Lorentz, sou Estudante de Defesa Cibernética e Desenvolvedor C++/Sistemas Embarcados do Brasil 🇧🇷</h2>
 
 ###
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=lorentz1&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=lorentz1&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=lorentz1&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=pt-br&hide_border=false" height="150" alt="gráfico de estatísticas"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=lorentz1&locale=pt-br&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="gráfico de linguagens"  />
 </div>
 
 ###
@@ -31,7 +31,7 @@
 
 <br clear="both">
 
-<h3 align="center">🎯 About Me</h3>
+<h3 align="center">🎯 Sobre Mim</h3>
 
 - 🎓 Estudante de **Defesa Cibernética**
 - 💻 Desenvolvedor **C/C++** com foco em **Segurança de Software**
