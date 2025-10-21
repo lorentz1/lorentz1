@@ -31,10 +31,6 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/lorentz1/lorentz1/output/snake.svg" alt="Snake animation" />
-
-###
-
 <h3 align="center">🎯 About Me</h3>
 
 - 🎓 Studying **Cyber Defense** - ⚙️ Passionate about **C/C++**, **Embedded Systems**, and **IoT** - 🔒 Focused on **Cybersecurity & Low-Level Programming** - 🧠 Always learning and experimenting with **hardware & automation**
