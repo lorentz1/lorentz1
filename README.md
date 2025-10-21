@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! My name is Nathan Lorentz and I'm a Cybersecurity Student & Embedded Systems Enthusiast from Brazil 🇧🇷</h2>
+<h2 align="left">Hi 👋! My name is Nathan Lorentz, a Cybersecurity Student & C++/Embedded Systems Developer from Brazil 🇧🇷</h2>
 
 ###
 
@@ -33,4 +33,7 @@
 
 <h3 align="center">🎯 About Me</h3>
 
-- 🎓 Studying **Cyber Defense** - ⚙️ Passionate about **C/C++**, **Embedded Systems**, and **IoT** - 🔒 Focused on **Cybersecurity & Low-Level Programming** - 🧠 Always learning and experimenting with **hardware & automation**
+- 🎓 Estudante de **Defesa Cibernética**
+- 💻 Desenvolvedor **C/C++** com foco em **Segurança de Software**
+- ⚙️ Aplicando conhecimentos em **Sistemas Embarcados** e **IoT** para criar soluções seguras
+- 🔒 Interessado em **Segurança de Hardware** e **Automação**
