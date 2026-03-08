@@ -27,7 +27,6 @@ Sou estudante de **Defesa Cibernética** e desenvolvedor de **C/C++** com foco e
   <img src="https://img.shields.io/github/followers/lorentz1?style=for-the-badge&logo=github&label=Seguidores" alt="Seguidores no GitHub" />
   <img src="https://img.shields.io/github/stars/lorentz1/lorentz1?style=for-the-badge&logo=github&label=Stars%20no%20perfil" alt="Stars no repositório de perfil" />
   <img src="https://img.shields.io/github/last-commit/lorentz1/lorentz1?style=for-the-badge&logo=github&label=%C3%9Altimo%20commit" alt="Último commit" />
-  <img src="https://img.shields.io/github/languages/top/lorentz1/lorentz1?style=for-the-badge&logo=github&label=Linguagem%20principal" alt="Linguagem principal" />
 </div>
 
 <h3 align="left">📫 Contato</h3>
