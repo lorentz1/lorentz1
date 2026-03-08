@@ -23,9 +23,11 @@ Sou estudante de **Defesa Cibernética** e desenvolvedor de **C/C++** com foco e
 
 <h3 align="left">📊 Estatísticas</h3>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=lorentz1&show_icons=true&theme=dracula&hide_border=true&locale=pt-br&cache_seconds=1800" height="160" alt="Estatísticas do GitHub" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lorentz1&layout=compact&langs_count=6&theme=dracula&hide_border=true&locale=pt-br&cache_seconds=1800" height="160" alt="Linguagens mais usadas" />
+<div align="left">
+  <img src="https://img.shields.io/github/followers/lorentz1?style=for-the-badge&logo=github&label=Seguidores" alt="Seguidores no GitHub" />
+  <img src="https://img.shields.io/github/stars/lorentz1/lorentz1?style=for-the-badge&logo=github&label=Stars%20no%20perfil" alt="Stars no repositório de perfil" />
+  <img src="https://img.shields.io/github/last-commit/lorentz1/lorentz1?style=for-the-badge&logo=github&label=%C3%9Altimo%20commit" alt="Último commit" />
+  <img src="https://img.shields.io/github/languages/top/lorentz1/lorentz1?style=for-the-badge&logo=github&label=Linguagem%20principal" alt="Linguagem principal" />
 </div>
 
 <h3 align="left">📫 Contato</h3>
