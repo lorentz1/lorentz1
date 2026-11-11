@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="Lorentz — Defesa Cibernética · Eletrônica · IoT · Robótica" width="100%" />
+<img src="assets/banner.svg" alt="Lorentz — Defesa Cibernética · Eletrônica · IoT · Robótica" width="100%" />
 
 <br>
 
