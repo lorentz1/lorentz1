@@ -1,12 +1,6 @@
 <div align="center">
 
-# `Lorentz`
-
-### Defesa Cibernética · Eletrônica de Potência · IoT · IA aplicada
-
-**Onde o firmware encontra o hardware — e a IA vira alavanca de engenharia.**
-
-Estudante de **Defesa Cibernética** · Nanodegree em **IoT & Drones** · foco em **desenvolvimento assistido por IA**, **MCP** e **sistemas embarcados de RF/potência**.
+<img src="assets/hero.svg" alt="Lorentz — Defesa Cibernética · Eletrônica · IoT · Robótica" width="100%" />
 
 <br>
 
@@ -17,7 +11,7 @@ Estudante de **Defesa Cibernética** · Nanodegree em **IoT & Drones** · foco e
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
 ![Arduino](https://img.shields.io/badge/Arduino-00878F?style=for-the-badge&logo=arduino&logoColor=white)
 
-![AI-Assisted](https://img.shields.io/badge/AI--Assisted_Dev-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![AI Orchestration](https://img.shields.io/badge/AI_Agent_Orchestration-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=anthropic&logoColor=white)
 ![Cybersecurity](https://img.shields.io/badge/Cyber_Defense-0A0A0A?style=for-the-badge&logo=hackthebox&logoColor=green)
 ![IoT](https://img.shields.io/badge/IoT-1BA94C?style=for-the-badge&logo=internetofthings&logoColor=white)
@@ -29,12 +23,14 @@ Estudante de **Defesa Cibernética** · Nanodegree em **IoT & Drones** · foco e
 
 ## 🧭 Quem sou
 
-Minha área é **Defesa Cibernética**, mas meu diferencial está na fronteira entre **segurança, eletrônica e sistemas embarcados**. Não me defino como um programador clássico — eu uso **código e IA como ferramentas** para resolver problemas de hardware e segurança.
+Minha área é **Defesa Cibernética**, e meu diferencial está na fronteira entre **segurança, eletrônica e sistemas embarcados**.
 
+Trabalho **orquestrando agentes de IA** para projetar e entregar soluções com muito mais velocidade — mas sempre com **desenvolvimento assistido, revisão crítica e segurança desde o design**. A IA acelera a execução; o **domínio de hardware e a engenharia** garantem que a solução esteja **certa**, não só pronta. Pra mim, saber *dirigir* bem a IA — definir arquitetura, validar, revisar e integrar — vale mais do que digitar cada linha.
+
+- 🤖 **Orquestração de IA & MCP** — projeto, conecto e dirijo agentes (Model Context Protocol) para acelerar engenharia, com validação e revisão humana em cada etapa.
 - 🔐 **Defesa Cibernética** — superfícies de ataque além do software: RF, controles de acesso, IoT, replay de código fixo.
 - ⚡ **Eletrônica & Potência** — circuitos, transistores, **PWM**, **IGBTs**, drivers e acionamento. Leio **datasheets e CIs** como mapa, não como obstáculo.
-- 🛰️ **IoT & Drones** — nanodegree na área; sensores, aquisição de sinal e integração embarcada.
-- 🤖 **IA aplicada & MCP** — desenvolvimento assistido, agentes e automação como multiplicador de produtividade em engenharia.
+- 🛰️ **IoT, Drones & Robótica** — nanodegree na área; sensores, aquisição de sinal e integração embarcada.
 - 💾 **C / C++** — vetores, gestão de memória, arrays e lógica de baixo nível; **C#** para desktop/console.
 
 ---
@@ -43,11 +39,11 @@ Minha área é **Defesa Cibernética**, mas meu diferencial está na fronteira e
 
 <div align="center">
 
-| 🤖 **IA & MCP** | ⚡ **Eletrônica** | 🔐 **Segurança** | 🛰️ **IoT & Sensores** |
+| 🤖 **IA & MCP** | ⚡ **Eletrônica** | 🔐 **Segurança** | 🛰️ **IoT & Robótica** |
 |:---:|:---:|:---:|:---:|
-| Desenvolvimento assistido | PWM · IGBT · drivers | RF / Sub-GHz | Aquisição de sinal |
-| Agentes & automação | Circuitos de potência | Replay & código fixo | ESP32 & embarcado |
-| Model Context Protocol | Datasheets & CIs | Scanners & recon | Drones |
+| Orquestração de agentes | PWM · IGBT · drivers | RF / Sub-GHz | Sensores & aquisição |
+| Desenvolvimento assistido | Circuitos de potência | Replay & código fixo | ESP32 & embarcado |
+| Model Context Protocol | Datasheets & CIs | Scanners & recon | Drones & robótica |
 
 </div>
 
@@ -81,7 +77,18 @@ Ferramenta de **auditoria de RF sub-GHz** sobre **ESP32 + CC1101**, para testar 
 **Embarcado & RF** &nbsp;·&nbsp; ESP32 · Arduino · CC1101 · SPI/I²C · RMT · GPIO · OOK/ASK
 **Eletrônica** &nbsp;·&nbsp; PWM · IGBT · MOSFET · drivers · circuitos de potência · osciloscópio · datasheets
 **Linguagens** &nbsp;·&nbsp; C · C++ · C# · Shell
-**IA & Fluxo** &nbsp;·&nbsp; Desenvolvimento assistido por IA · MCP · agentes · Git
+**IA & Fluxo** &nbsp;·&nbsp; Orquestração de agentes · MCP · desenvolvimento assistido · Git
+
+<br>
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="42" height="42" alt="C" />&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="42" height="42" alt="C++" />&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="42" height="42" alt="C#" />&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" width="42" height="42" alt="Arduino" />&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg" width="42" height="42" alt="Raspberry Pi" />&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="42" height="42" alt="Bash" />&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="42" height="42" alt="Linux" />&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="42" height="42" alt="Git" />
 
 </div>
 
@@ -89,13 +96,6 @@ Ferramenta de **auditoria de RF sub-GHz** sobre **ESP32 + CC1101**, para testar 
 
 <div align="center">
 
-### 📊 GitHub
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=lorentz1&show_icons=true&hide_border=true&theme=dark&icon_color=D97757&title_color=D97757" alt="stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lorentz1&layout=compact&hide_border=true&theme=dark&title_color=D97757" alt="top langs" />
-
-<br><br>
-
-*"Aprendo o hardware a fundo, uso a IA como alavanca, e trato segurança como engenharia — não como mágica."*
+*"Aprendo o hardware a fundo, dirijo a IA como alavanca, e trato segurança como engenharia — não como mágica."*
 
 </div>
