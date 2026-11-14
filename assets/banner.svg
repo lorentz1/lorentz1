@@ -1,109 +1,97 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="1200" height="220" font-family="Segoe UI, Arial, Helvetica, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" font-family="Segoe UI, Arial, Helvetica, sans-serif">
   <defs>
-    <linearGradient id="hudBg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#11161d"/>
-      <stop offset="50%" stop-color="#151c24"/>
-      <stop offset="100%" stop-color="#0f141a"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b22"/>
     </linearGradient>
-    <linearGradient id="pillBg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#1b242e"/>
-      <stop offset="50%" stop-color="#26323f"/>
-      <stop offset="100%" stop-color="#1b242e"/>
-    </linearGradient>
-    <linearGradient id="tealGlow" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0.15"/>
-      <stop offset="50%" stop-color="#5eead4" stop-opacity="0.7"/>
-      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0.15"/>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#D97757"/>
+      <stop offset="1" stop-color="#f0a080"/>
     </linearGradient>
   </defs>
 
-  <!-- Outer HUD frame -->
-  <rect width="1200" height="220" rx="14" fill="url(#hudBg)"/>
-  <rect x="2" y="2" width="1196" height="216" rx="12" fill="none" stroke="#2c3846" stroke-width="1.5"/>
+  <!-- card -->
+  <rect width="1200" height="320" rx="14" fill="url(#bg)"/>
+  <rect x="1.5" y="1.5" width="1197" height="317" rx="13" fill="none" stroke="#30363d" stroke-width="2"/>
 
-  <!-- Corner HUD brackets -->
-  <g stroke="#5eead4" stroke-opacity="0.55" stroke-width="2" fill="none" stroke-linecap="round">
-    <path d="M18 42 V18 H42"/>
-    <path d="M1158 18 H1182 V42"/>
-    <path d="M18 178 V202 H42"/>
-    <path d="M1158 202 H1182 V178"/>
+  <!-- corner brackets -->
+  <g stroke="#58A6FF" stroke-opacity="0.45" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <path d="M24 46 V24 H46"/>
+    <path d="M1176 274 V296 H1154"/>
   </g>
 
-  <!-- Corner screws / nodes -->
-  <g fill="#2b3644" stroke="#4b5b6e" stroke-width="1">
-    <circle cx="28" cy="28" r="4"/>
-    <circle cx="1172" cy="28" r="4"/>
-    <circle cx="28" cy="192" r="4"/>
-    <circle cx="1172" cy="192" r="4"/>
+  <!-- LEFT: title block, vertically centred (content spans y 82..246) -->
+  <text x="64" y="130" font-size="64" font-weight="800" fill="#f0f6fc" letter-spacing="3">LORENTZ</text>
+  <rect x="66" y="150" width="300" height="5" rx="2.5" fill="url(#accent)"/>
+  <text x="66" y="192" font-size="18" fill="#8b949e" letter-spacing="1.6">DEFESA CIBERNÉTICA · ELETRÔNICA · IoT · ROBÓTICA</text>
+  <text x="66" y="222" font-size="16" fill="#D97757" letter-spacing="0.4">orquestrando agentes de IA · firmware × hardware × segurança</text>
+  <text x="66" y="250" font-size="13" fill="#6e7681" font-family="Consolas, 'Courier New', monospace">&gt; build_fast() · stay_assisted() · secure_by_design()</text>
+
+  <!-- separator -->
+  <line x1="700" y1="56" x2="700" y2="264" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- RIGHT: 3 x 2 icon grid.
+       Columns at x = 810, 950, 1090. Each icon fits a ±32 px box.
+       Row 1: icon centre y = 100, label baseline y = 156.
+       Row 2: icon centre y = 212, label baseline y = 268. -->
+  <g font-size="11" fill="#8b949e" text-anchor="middle" letter-spacing="1.5">
+    <text x="810" y="156">DRONES</text>
+    <text x="950" y="156">ROBÓTICA</text>
+    <text x="1090" y="156">RF / SUB-GHz</text>
+    <text x="810" y="268">PWM / IGBT</text>
+    <text x="950" y="268">CIs / DATASHEETS</text>
+    <text x="1090" y="268">SEGURANÇA</text>
   </g>
 
-  <!-- Subtle top & bottom HUD tick lines -->
-  <g stroke="#2c3846" stroke-width="1.5">
-    <line x1="120" y1="12" x2="320" y2="12"/>
-    <line x1="880" y1="12" x2="1080" y2="12"/>
-    <line x1="120" y1="208" x2="320" y2="208"/>
-    <line x1="880" y1="208" x2="1080" y2="208"/>
+  <!-- Drone (±58 x ±31) -->
+  <g transform="translate(810,100)" stroke="#D97757" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="0" y1="0" x2="-40" y2="-24"/><line x1="0" y1="0" x2="40" y2="-24"/>
+    <line x1="0" y1="0" x2="-40" y2="24"/><line x1="0" y1="0" x2="40" y2="24"/>
+    <ellipse cx="-40" cy="-24" rx="18" ry="4.5" stroke-opacity="0.85"/>
+    <ellipse cx="40" cy="-24" rx="18" ry="4.5" stroke-opacity="0.85"/>
+    <ellipse cx="-40" cy="24" rx="18" ry="4.5" stroke-opacity="0.85"/>
+    <ellipse cx="40" cy="24" rx="18" ry="4.5" stroke-opacity="0.85"/>
+    <circle cx="-40" cy="-24" r="3"/><circle cx="40" cy="-24" r="3"/>
+    <circle cx="-40" cy="24" r="3"/><circle cx="40" cy="24" r="3"/>
+    <rect x="-15" y="-10" width="30" height="20" rx="6"/>
+    <circle cx="0" cy="13" r="3.5"/>
   </g>
 
-  <!-- Main Header Title -->
-  <text x="600" y="64" text-anchor="middle" font-size="31" font-weight="800" letter-spacing="1.8">
-    <tspan fill="#5eead4">LORENTZ</tspan>
-    <tspan fill="#e6edf3"> — CYBER DEFENSE · EMBEDDED SYSTEMS · POWER ELECTRONICS</tspan>
-  </text>
-
-  <!-- Subtitle Pill with PCB Traces -->
-  <rect x="72" y="88" width="1056" height="52" rx="10" fill="url(#pillBg)" stroke="#475569" stroke-width="1.2"/>
-
-  <!-- Left PCB traces inside pill -->
-  <g stroke="#64748b" stroke-width="1.2" fill="none" stroke-opacity="0.75">
-    <path d="M84 102 H140 L152 114 H195"/>
-    <path d="M84 114 H128 L140 126 H182"/>
-    <path d="M84 126 H115 L125 134 H165"/>
-    <circle cx="195" cy="114" r="2.5" fill="#5eead4" stroke="none"/>
-    <circle cx="182" cy="126" r="2.5" fill="#64748b" stroke="none"/>
-    <circle cx="165" cy="134" r="2" fill="#64748b" stroke="none"/>
+  <!-- Robot head (±30 x -32..+20) -->
+  <g transform="translate(950,106)" stroke="#3FB950" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="0" y1="-20" x2="0" y2="-29"/><circle cx="0" cy="-32" r="3" fill="#3FB950"/>
+    <rect x="-24" y="-20" width="48" height="40" rx="8"/>
+    <circle cx="-10" cy="-3" r="4.5" fill="#3FB950"/><circle cx="10" cy="-3" r="4.5" fill="#3FB950"/>
+    <line x1="-10" y1="11" x2="10" y2="11"/>
+    <line x1="-29" y1="-5" x2="-29" y2="7"/><line x1="29" y1="-5" x2="29" y2="7"/>
   </g>
 
-  <!-- Right PCB traces inside pill -->
-  <g stroke="#64748b" stroke-width="1.2" fill="none" stroke-opacity="0.75">
-    <path d="M1116 102 H1060 L1048 114 H1005"/>
-    <path d="M1116 114 H1072 L1060 126 H1018"/>
-    <path d="M1116 126 H1085 L1075 134 H1035"/>
-    <circle cx="1005" cy="114" r="2.5" fill="#5eead4" stroke="none"/>
-    <circle cx="1018" cy="126" r="2.5" fill="#64748b" stroke="none"/>
-    <circle cx="1035" cy="134" r="2" fill="#64748b" stroke="none"/>
+  <!-- RF antenna (±19 x -30..+26) -->
+  <g transform="translate(1090,102)" stroke="#58A6FF" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <line x1="0" y1="-12" x2="0" y2="24"/><line x1="-9" y1="24" x2="9" y2="24"/>
+    <circle cx="0" cy="-12" r="3.2" fill="#58A6FF"/>
+    <path d="M7 -20 A10 10 0 0 1 7 -4"/><path d="M13 -25 A17 17 0 0 1 13 1"/><path d="M19 -30 A24 24 0 0 1 19 6"/>
+    <path d="M-7 -20 A10 10 0 0 0 -7 -4"/><path d="M-13 -25 A17 17 0 0 0 -13 1"/><path d="M-19 -30 A24 24 0 0 0 -19 6"/>
   </g>
 
-  <!-- Subtitle Text inside pill -->
-  <text x="600" y="121" text-anchor="middle" font-size="22" font-weight="600" fill="#f1f5f9" letter-spacing="0.6">
-    Lorentz — Defesa Cibernética · Eletrônica · IoT · Robótica
-  </text>
+  <!-- PWM wave (±50 x ±12) -->
+  <g transform="translate(810,212)" stroke="#D97757" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="-50,12 -50,-12 -32,-12 -32,12 -16,12 -16,-12 4,-12 4,12 18,12 18,-12 38,-12 38,12 50,12"/>
+  </g>
 
-  <!-- Telemetry Status Pills -->
-  <g font-family="Consolas, 'Courier New', monospace" font-size="14" font-weight="600" letter-spacing="0.8">
-    <!-- REV pill -->
-    <rect x="200" y="158" width="136" height="30" rx="6" fill="#1e2732" stroke="#334155" stroke-width="1"/>
-    <text x="268" y="178" text-anchor="middle">
-      <tspan fill="#cbd5e1">REV </tspan>
-      <tspan fill="#5eead4">2026.1</tspan>
-    </text>
+  <!-- IC chip (±32 x ±26) -->
+  <g transform="translate(950,212)" stroke="#3FB950" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="-24" y="-17" width="48" height="34" rx="4"/>
+    <line x1="-24" y1="-9" x2="-32" y2="-9"/><line x1="-24" y1="0" x2="-32" y2="0"/><line x1="-24" y1="9" x2="-32" y2="9"/>
+    <line x1="24" y1="-9" x2="32" y2="-9"/><line x1="24" y1="0" x2="32" y2="0"/><line x1="24" y1="9" x2="32" y2="9"/>
+    <line x1="-9" y1="-17" x2="-9" y2="-25"/><line x1="9" y1="-17" x2="9" y2="-25"/>
+    <line x1="-9" y1="17" x2="-9" y2="25"/><line x1="9" y1="17" x2="9" y2="25"/>
+    <circle cx="-14" cy="-7" r="2.8" fill="#3FB950"/>
+  </g>
 
-    <circle cx="354" cy="173" r="2" fill="#64748b"/>
-
-    <!-- ARCH pill -->
-    <rect x="372" y="158" width="356" height="30" rx="6" fill="#1e2732" stroke="#334155" stroke-width="1"/>
-    <text x="550" y="178" text-anchor="middle">
-      <tspan fill="#cbd5e1">ARCH: </tspan>
-      <tspan fill="#5eead4">HARDWARE + AI ORCHESTRATION</tspan>
-    </text>
-
-    <circle cx="746" cy="173" r="2" fill="#64748b"/>
-
-    <!-- STATUS pill -->
-    <rect x="764" y="158" width="236" height="30" rx="6" fill="#1e2732" stroke="#334155" stroke-width="1"/>
-    <text x="882" y="178" text-anchor="middle">
-      <tspan fill="#cbd5e1">STATUS: </tspan>
-      <tspan fill="#5eead4">OPERATIONAL</tspan>
-    </text>
+  <!-- Shield (±21 x -26..+28) -->
+  <g transform="translate(1090,210)" stroke="#58A6FF" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 -26 L21 -16 L21 3 Q21 19 0 28 Q-21 19 -21 3 L-21 -16 Z"/>
+    <polyline points="-9,0 -2,9 11,-9"/>
   </g>
 </svg>
